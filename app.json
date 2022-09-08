@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "sound-shop",
+    "name": "Sound Shop",
     "slug": "sound-shop",
+    "description": "This is a simple e-commerce app. Where you can get all sound device",
     "version": "1.0.0",
+    "privacy": "public",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
